@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salão de Cabeleireiro XYZ</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Adicionar links para os arquivos CSS e JS -->
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Salão de Cabeleireiro XYZ</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#servicos">Serviços</a></li>
+			<li><a href="#sobre">Sobre</a></li>
+			<li><a href="#contato">Contato</a></li>
+			<li><a href="#agendamento">Agendamento</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="servicos">
+			<h2>Nossos Serviços</h2>
+			<ul>
+				<li>Corte de Cabelo</li>
+				<li>Pintura de Cabelo</li>
+				<li>Tratamento Capilar</li>
+				<li>Manicure e Pedicure</li>
+			</ul>
+		</section>
+		<section id="sobre">
+			<h2>Sobre Nós</h2>
+			<p>O Salão de Cabeleireiro XYZ é especializado em cuidados com os cabelos e unhas. Nossa equipe de profissionais altamente qualificados está sempre pronta para atender nossos clientes da melhor forma possível.</p>
+		</section>
+		<section id="contato">
+			<h2>Contato</h2>
+			<form>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+		<section id="agendamento">
+			<h2>Agendamento</h2>
+			<form>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="telefone">Telefone:</label>
+				<input type="tel" id="telefone" name="telefone" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="data">Data:</label>
+				<input type="date" id="data" name="data" required>
+
+				<label for="horario">Horário:</label>
+				<input type="time" id="horario" name="horario" required>
+
+				<button type="submit">Agendar</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Salão de Cabeleireiro XYZ</p>
+	</footer>
+</body>
+</html
